@@ -1,4 +1,4 @@
-## Solaris
+## Agentless for Solaris
 ```
 $ stat --printf "%s:%a:%u:%g" foo
 1279:550:0:501
