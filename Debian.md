@@ -2,7 +2,8 @@
 
 In a VM I added a host only interface (eth1) to the existing NAT interface (eth0). And then I lost internet connectivity. I saw in the routing table that the default route was the eth1 interface:
 
-```$ ip route
+```
+$ ip route
 default via 192.168.75.1 dev eth1  proto static  metric 100 
 default via 192.168.72.2 dev eth0  proto static  metric 101 
 169.254.0.0/16 dev eth1  scope link  metric 1000 
