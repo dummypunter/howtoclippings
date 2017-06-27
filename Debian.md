@@ -21,6 +21,5 @@ default via 192.168.75.1 dev eth1  proto static  metric 102
 192.168.72.0/24 dev eth0  proto kernel  scope link  src 192.168.72.202  metric 100 
 192.168.75.0/24 dev eth1  proto kernel  scope link  src 192.168.75.131  metric 100 
 ```
-
-
+Now that I am writing my actions, I believe a better response would be to delete the host only route... But it works, so don't touch it!
 
