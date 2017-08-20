@@ -10,7 +10,7 @@ default via 192.168.72.2 dev eth0  proto static  metric 101
 192.168.72.0/24 dev eth0  proto kernel  scope link  src 192.168.72.202  metric 100 
 192.168.75.0/24 dev eth1  proto kernel  scope link  src 192.168.75.131  metric 100 
 ```
-The remedy was to change the metric of the eth1:
+The remedy was to change the metric of eth1:
 ```
 $ sudo ip route add default via 192.168.75.1 dev eth1  proto static  metric 102
 $ sudo ip route del default via 192.168.75.1 dev eth1  proto static  metric 100
