@@ -10,7 +10,7 @@ https://wiki.archlinux.org/index.php/LightDM#Enabling_autologin
  
 username must be part of the autologin group to be able to login automatically without entering your password:
 ```
-# groupadd -r autologin`
+# groupadd -r autologin
 # gpasswd -a username autologin
 ```
 https://wiki.archlinux.org/index.php/LightDM#Enabling_LightDM
